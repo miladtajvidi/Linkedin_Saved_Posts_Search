@@ -23,11 +23,11 @@ Chances are, you like me, have tried to sublimate your uncontrollable desire to 
 
 🔍 Search with:
 
-    - Fuzzy keyword matching (RapidFuzz)
+    Fuzzy keyword matching (RapidFuzz)
 
-    - AND/OR logic
+    AND/OR logic
 
-    - Optional date range filter
+    Optional date range filter
 
 📤 Export matched results to a structured JSON file
 
@@ -37,5 +37,20 @@ Chances are, you like me, have tried to sublimate your uncontrollable desire to 
 Install the CLI tool directly from PyPI:
 
 ```  
-    pip install linkedin-saved-posts-search
+pip install linkedin-saved-posts-search
 ```
+
+## 🛠️ Usage
+
+*Step 1: Start the CLI*
+```
+Lsps
+```
+*Step 2: Login*
+
+ You will be prompted to log in through a browser.
+🔐 Note: Only standard LinkedIn login (username and password) is supported. Google or Apple login methods are not currently supported.
+
+
+
+
