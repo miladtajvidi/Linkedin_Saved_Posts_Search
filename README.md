@@ -46,10 +46,16 @@ pip install linkedin-saved-posts-search
 ```
 Lsps
 ```
-*Step 2: Login*
+*Step 2: Mode Selection*
+You will be prompted to select a mode.(1-scape or 2-search) <br>
+If this is your first run, select mode 1. (In mode 2, the script looks for saved_posts.json and saved_urls.json; you have to scrape these data first.) <br>
+![1 - Scrape and save posts](images/1_scrape.png)
 
- You will be prompted to log in through a browser.
-🔐 Note: Only standard LinkedIn login (username and password) is supported. Google or Apple login methods are not currently supported.
+*Step 3: Login*
+
+ You will be prompted to log in through a browser.<br>
+🔐 Note: Only standard LinkedIn login (username and password) is supported. Google or Apple login methods are not currently supported.<br>
+
 
 
 
