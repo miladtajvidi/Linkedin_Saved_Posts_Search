@@ -56,7 +56,8 @@ If this is your first run, select mode 1. (In mode 2, the script looks for saved
 
  You will be prompted to log in through a browser.<br>
 
- ![Manual Login](images/2_login.png)
+<img src="images/2_login.png" alt="Manual login" width="200" height="300">
+
 
 🔐 Note: Only standard LinkedIn login (username and password) is supported. Google or Apple login methods are not currently supported.<br>
 
