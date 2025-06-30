@@ -85,6 +85,17 @@ If this is your first run, select mode 1. (In mode 2, the script looks for saved
 
  *Step 6: Search mode*
 
+ After your initial run, you can use the search mode to sift through your scraped saved posts. 
+🔐 Note: Idempotency has been implemented in the scraping function. If re-run, the scraper tries to scrape any saved posts that hasn't been scraped previously.
+
+You'll be prompted to enter keywords.
+🔐 Note: Type **0** as your last keyword to signal the end of input keywords.
+
+You'll then asked to choose between AND/OR search functionality. 
+You can optionally apply a filter date as well.(YYYY-MM-DD)
+
+<img src="images/7_search_mode.png" alt="Search mode">
+
  *Step 7: Exporting the results*
 
  ## ⚠️ Limitations
