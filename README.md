@@ -23,11 +23,11 @@ Chances are, you like me, have tried to sublimate your uncontrollable desire to 
 
 🔍 Search with:
 
-    Fuzzy keyword matching (RapidFuzz)
+    - Fuzzy keyword matching (RapidFuzz)
 
-    AND/OR logic
+    - AND/OR logic
 
-    Optional date range filter
+    - Optional date range filter
 
 📤 Export matched results to a structured JSON file
 
@@ -36,7 +36,6 @@ Chances are, you like me, have tried to sublimate your uncontrollable desire to 
 
 Install the CLI tool directly from PyPI:
 
-<pre>``` bash 
+```  
     pip install linkedin-saved-posts-search
-    ```
-</pre>
+```
