@@ -65,6 +65,33 @@ If this is your first run, select mode 1. (In mode 2, the script looks for saved
 
 🔐 Note: Please remember to press **Enter** in the terminal after successful manual login to continue.
  
+ *Step 4: Headless option *
+
+ You'll have the option to either continue scaping in the visible launched chrome browser or switch to headless mode.
+
+ <img src="images/4_headless.png" alt="Headless">
+
+ *Step 5: Scrape mode selection*
+
+ You'll be prompted to choose between the scroll-based(default) or cut-off date scraping.
+ In the following example, we've chosen the default mode. Next, we'll be asked the number of times the script needs to scroll and scrape.
+ 🔐 Note: In the cut-off mode, you'll be prompted to enter a cut-off date in the format(YYYY-MM-DD).
+
+ <img src="images/5_scrape_mode.png" alt="Scroll-based scraping">
+
+ If successful, you'll see an output similar to the following:
+
+ <img src="images/6_success_output.png" alt="Success output">
+
+ *Step 6: Search mode*
+
+ *Step 7: Exporting the results*
+
+ ## ⚠️ Limitations
+
+## 🧪 Future Direction
+
+
 
 
 
