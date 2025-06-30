@@ -86,9 +86,11 @@ If this is your first run, select mode 1. (In mode 2, the script looks for saved
  *Step 6: Search mode*
 
  After your initial run, you can use the search mode to sift through your scraped saved posts. 
+
 🔐 Note: Idempotency has been implemented in the scraping function. If re-run, the scraper tries to scrape any saved posts that hasn't been scraped previously.
 
 You'll be prompted to enter keywords.
+
 🔐 Note: Type **0** as your last keyword to signal the end of input keywords.
 
 You'll then asked to choose between AND/OR search functionality. 
@@ -99,6 +101,7 @@ You can optionally apply a filter date as well.(YYYY-MM-DD)
  *Step 7: Exporting the results*
 
  If the search function finds any matches, you'll see them printed in the format of i.[YYYY-MM-DD] | [Author Name] - [Ref URL].
+
  You'll then be prompted to decide whether to export the results into a json file.
 
  <img src="images/8_search_results.png" alt="JSON export">
@@ -108,14 +111,17 @@ You can optionally apply a filter date as well.(YYYY-MM-DD)
  ❌ Login with Google, and Apple is currently not supported due to their automatic bot detection. This can be remedied through getting user-data-dir session info for authentication. A better option can be a chrome plugin extension which handles security tokens properly in the backend. Stay tuned for the release of the extension version of this tool in the near future!
 
  ⏳ Depending on how many posts you’ve saved and the timeline(or number of scrolls) that you wish to go back, scraping might take long to run.(I had something close to 1700s saved posts in the last 3 years and it took the script around 40 minutes to run)
+
  Good news is, once you run the scraper to collect your saved posts and their URLs way back in time, for future runs, it will only take a short time to scrape recent unseen saved posts.
 
- 🖥️ This tool is designed for personal use and not intended for large scale/unethical scraping. I've assumed the users' saved posts contain other Linkedin users' publicly published posts. Please refrain from scraping privately shared materials.
+ 🖥️ This tool is designed for personal use and not intended for large scale/unethical scraping. I've assumed the users' saved posts contain other Linkedin users' publicly published posts. 
+ Please refrain from scraping privately shared materials.
 
 
 ## 🧪 Future Direction
 
 This CLI tool is the foundation for a more accessible Chrome Extension version.
+
 Stay tuned — soon, you’ll be able to search your saved posts directly inside LinkedIn with a seamless UI!
 
 
