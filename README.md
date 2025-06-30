@@ -2,6 +2,7 @@
 
 A simple Python CLI tool to scrape, search, and export your LinkedIn saved posts.
 This tool is ideal for users who want to organize, revisit, and export content from the posts they’ve saved on LinkedIn.
+![Project's pypi page](https://pypi.org/project/Linkedin-saved-posts-search/)
 
 ## ❔ Motivation
 
