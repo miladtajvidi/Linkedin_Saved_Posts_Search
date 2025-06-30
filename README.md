@@ -63,6 +63,8 @@ If this is your first run, select mode 1. (In mode 2, the script looks for saved
 
 <img src="images/3_Google.png" alt="Failed Apple and Google login attempts" width="200" height="300">
 
+🔐 Note: Please remember to press **Enter** in the terminal after successful manual login to continue.
+ 
 
 
 
