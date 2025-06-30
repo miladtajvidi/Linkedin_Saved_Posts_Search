@@ -61,7 +61,8 @@ If this is your first run, select mode 1. (In mode 2, the script looks for saved
 
 🔐 Note: Only standard LinkedIn login (username and password) is supported. Google or Apple login methods are not currently supported.<br>
 
-![Failed Apple and Google login attempts](images/3_Google.png)
+<img src="images/3_Google.png" alt="Failed Apple and Google login attempts" width="200" height="300">
+
 
 
 
